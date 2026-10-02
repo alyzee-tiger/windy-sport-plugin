@@ -2,7 +2,7 @@ import type { ExternalPluginConfig } from '@windy/interfaces';
 
 const config: ExternalPluginConfig = {
     name: 'windy-plugin-sport-flags',
-    version: '0.1.0',
+    version: '0.1.1',
     icon: '🚩',
     title: 'Drapeaux sport',
     description: 'Drapeau vert / orange / rouge par sport selon la prévision.',
