@@ -13,7 +13,7 @@ const config: ExternalPluginConfig = {
     routerPath: '/sport-flags/:lat?/:lon?',
     addToContextmenu: true,
     listenToSingleclick: true,
-    private: true,
+    private: false,
 };
 
 export default config;
