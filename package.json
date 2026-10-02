@@ -16,7 +16,7 @@
         "example06": "CONFIG=example06 rollup -w -c",
         "example07": "CONFIG=example07 rollup -w -c",
         "build:all-examples": "for number in 01 02 03 04 05 06; do CONFIG=example$number SERVE=false rollup -c; done",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "node --test test/"
     },
     "repository": {
         "type": "git",
@@ -27,7 +27,7 @@
         "windy.com",
         "plugins"
     ],
-    "author": "Windyty, S.E.",
+    "author": "Alyzée Tiger <alyzee.tiger@gmail.com> (https://www.instagram.com/alyzouu)",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/windycom/windy-plugin-template/issues"

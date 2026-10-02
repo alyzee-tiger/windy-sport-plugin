@@ -1,16 +1,18 @@
 import type { ExternalPluginConfig } from '@windy/interfaces';
 
 const config: ExternalPluginConfig = {
-    name: 'windy-plugin-my-plugin',
+    name: 'windy-plugin-sport-flags',
     version: '0.1.0',
-    icon: '🔌',
-    title: 'This is my first plugin',
-    description: 'This is my first plugin.',
-    author: 'John Doe (optional company name)',
-    repository: 'https://github.com/windycom/windy-plugin-template',
+    icon: '🚩',
+    title: 'Drapeaux sport',
+    description: 'Drapeau vert / orange / rouge par sport selon la prévision.',
+    author: 'Alyzée Tiger <alyzee.tiger@gmail.com> (Instagram @alyzouu)',
+    repository: 'https://github.com/alyzee-tiger/windy-sport-plugin',
     desktopUI: 'rhpane',
-    mobileUI: 'fullscreen',
-    routerPath: '/my-plugin',
+    mobileUI: 'small',
+    routerPath: '/sport-flags/:lat?/:lon?',
+    addToContextmenu: true,
+    listenToSingleclick: true,
     private: true,
 };
 
